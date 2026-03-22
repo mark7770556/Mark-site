@@ -1,0 +1,130 @@
+body,html{
+margin:0;
+padding:0;
+height:100%;
+}
+.ggg{
+display: flex ;
+height:100%;
+}
+.left{
+width:300px;
+background-color:#a9a9a9;
+color:white;
+position:sticky;
+top:0;
+padding:20px 0px;
+}
+.right{
+width:300px;
+background-color:#a9a9a9;
+color:white;
+position:sticky;
+top:0;
+padding:20px 0px;
+}
+.center{
+flex:1;
+overflow-y:scroll;
+scrollbar-width:none;
+padding:20px 0px;
+background-color:gray;
+}
+.h2{
+display:flex;
+justify-content:center;
+opacity:0.7;
+color:white;
+}
+.p{
+font-size:25px;
+color:white;
+display:flex;
+padding-left:40px;
+opacity:0;
+transform:translateY(100px);
+animation: showText 2s ease forwards;
+}
+@keyframes showText {
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+.img{
+border-radius:8%;
+margin-left:40px;
+opacity:0.85;
+transition:all 0.4s ease;
+}
+.img:hover{
+transform: translateY(-2px);
+box-shadow: 0 8px #00000075;
+}
+.bit{
+background-color: gray;
+color: white;
+padding: 14px 50px;
+border-radius: 40px;
+box-shadow: 0 3px gray;
+transition: all 0.3s ease;
+display: inline-flex;
+justify-content: center;
+opacity: 0.8;
+text-decoration: none;
+margin-left:70px;
+margin-bottom:70px;
+margin-top:60px;
+}
+.bit:hover{
+transform: translateY(-3px);
+box-shadow: 0 8px #00000075;
+}
+.bit1{
+background-color: gray;
+color: white;
+padding: 14px 50px;
+border-radius: 40px;
+box-shadow: 0 3px gray;
+transition: all 0.3s ease;
+display: inline-flex;
+justify-content: center;
+opacity: 0.8;
+text-decoration: none;
+margin-left:45px;
+margin-bottom:70px;
+margin-top:60px;
+}
+.bit1:hover{
+transform: translateY(-3px);
+box-shadow: 0 8px #00000075;
+}
+.a{
+background-color: gray;
+color: white;
+padding: 14px 40px;
+border-radius: 40px;
+box-shadow: 0 3px gray;
+transition: all 0.3s ease;
+display: inline-flex;
+justify-content: center;
+opacity: 0.8;
+text-decoration: none;
+margin-left:70px;
+margin-bottom:20px;
+margin-top: 60px;
+}
+.a:hover{
+transform: translateY(-3px);
+box-shadow: 0 8px #00000075;
+}
+.h3{
+display:flex;
+justify-content:center;
+color:white;
+opacity:0.8;
+}
+
+
+
+
